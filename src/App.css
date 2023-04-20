@@ -1,0 +1,168 @@
+* {
+  font-family: "Inter",sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav__links {
+  padding: 0 18px;
+}
+
+
+.nav__links {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard__nav {
+  color: #4d4dff;
+  background-color: #faf9fa;
+  border-bottom: 2px solid hsla(0,0%,52.2%,.1);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  transition: transform .3s;
+  flex-direction: column;
+}
+
+.dashboard__nav--content {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  min-height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 12px;
+  grid-gap: 8px;
+  gap: 8px;
+}
+
+.dashboard__nav--content, .logo {
+  display: flex;
+  align-items: center;
+}
+
+.btn__undercover {
+  padding: 12px!important;
+  background-color: transparent!important;
+  color: #4d4dff!important;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 14px;
+  justify-content: center;
+  letter-spacing: .03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0;
+  transition: background-color .2s ease 0s,opacity .2s ease 0s;
+  height: 40px;
+  padding: 0 24px;
+  border: none;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo__burger {
+  width: 30px;
+  max-height: 14px;
+  height: 14px;
+  display: flex;
+}
+
+.logo {
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.dashboard__nav--content, .logo {
+  display: flex;
+  align-items: center;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.logo__img {
+  width: 100%;
+  max-width: 240px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.nav__links {
+  padding: 0 18px;
+}
+
+.nav__icon, .nav__links {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.nav__icon {
+  width: 40px;
+  background-color: #4d4dff;
+  border-radius: 50%;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  border: none;
+}
+
+.nav__link--home {
+  color: #0a0a0a;
+  margin-right: 4px;
+  padding: 6px 16px;
+  transition: opacity .2s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn--primary {
+  background-color: #4d4dff;
+  color: #fff;
+}
+
+.nav__links .btn {
+  padding: 0 16px;
+  border: 0;
+}
