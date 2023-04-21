@@ -1,12 +1,14 @@
+import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Nav from "./Nav";
+import Nav from "./components/Nav";
+import Registered from "./components/Registered";
 
 function App() {
   return (
     <Router>
       <Nav />
-      <div className="App">Test 123</div>;
+      <Registered />
     </Router>
   );
 }

@@ -1,7 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import FrontEndLogo from "./assets//Frontend Simplified Logo.png";
+import FrontEndLogo from "..//assets//Frontend Simplified Logo.png";
+import {Login, logout } from "./Auth";
+import Register from "./Register";
 
 const Nav = () => {
   return (
@@ -19,14 +21,10 @@ const Nav = () => {
         </div>
         <div className="nav__links">
             <a href="" className="nav__link--home">Pricing</a>
-            <span className="nav__link--home">Login</span>
-            <button className="btn btn--primary nav__btn">Register</button>
-            {/* <div className="container">
-              <span className="wrapper">
-                <button className="nav__icon">J</button>
-              </span>
-            </div> */}
-
+            <span className="nav__link--home" onClick={Login}>Login</span>
+            <button className="btn btn--primary nav__btn" onClick={Register}>Register</button>
+            <div className="container">
+            </div>
         </div>
       </div>
     </nav>
